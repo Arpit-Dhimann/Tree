@@ -10,6 +10,10 @@ A comprehensive Java repository dedicated to mastering hierarchical data structu
 | **`PreorderTraversal.java`** | Depth-First Search variant visiting nodes in sequence. | **Root $\rightarrow$ Left $\rightarrow$ Right** traversal pattern. |
 | **`InorderTraversal.java`** | Sorted-order traversal implementation for binary search structures. | **Left $\rightarrow$ Root $\rightarrow$ Right** sequence logic. |
 | **`PostorderTraversal.java`** | Bottom-up processing strategy for structural clean-up and evaluation. | **Left $\rightarrow$ Right $\rightarrow$ Root** execution flow. |
+| **`LevelOrderTraversal.java`** | Breadth-First Search (BFS) level-by-level traversal variant using a Queue. | **Queue-based FIFO processing with level separation markers (`null`)**. |
+| **`CountOfNodes.java`** | Recursive node counting algorithm for binary trees. | **Bottom-up structural summation (`leftCount + rightCount + 1`)**. |
+| **`SumOfNodes.java`** | Cumulative value summation strategy across all tree nodes. | **Recursive data accumulation (`leftSum + rightSum + root.data`)**. |
+| **`HeightOfTree.java`** | Depth and maximum level calculation implementation. | **Max-depth evaluation via `Math.max(leftHeight, rightHeight) + 1`**. |
 
 ---
 
@@ -21,6 +25,8 @@ A comprehensive Java repository dedicated to mastering hierarchical data structu
   - *Pre-order:* Ideal for cloning trees or serializing structural hierarchies.
   - *In-order:* Yields sorted elements when applied to Binary Search Trees (BST).
   - *Post-order:* Essential for bottom-up computational tasks like deleting nodes or calculating subtree sizes/heights.
+- **Breadth-First Search (BFS) Variants:**
+  - *Level-Order:* Traverses the tree level by level using a Queue, highly useful for finding shortest paths or printing hierarchical levels.
 
 ---
 *Learning in public - Arpit Dhiman*
