@@ -14,6 +14,10 @@ A comprehensive Java repository dedicated to mastering hierarchical data structu
 | **`CountOfNodes.java`** | Recursive node counting algorithm for binary trees. | **Bottom-up structural summation (`leftCount + rightCount + 1`)**. |
 | **`SumOfNodes.java`** | Cumulative value summation strategy across all tree nodes. | **Recursive data accumulation (`leftSum + rightSum + root.data`)**. |
 | **`HeightOfTree.java`** | Depth and maximum level calculation implementation. | **Max-depth evaluation via `Math.max(leftHeight, rightHeight) + 1`**. |
+| **`DiameterOfTree.java`** | Standard implementation for calculating tree diameter. | **Recursive path evaluation across left and right subtrees**. |
+| **`DiameterOptimized.java`** | Optimized approach for tree diameter calculation. | **$O(n)$ time complexity approach using custom `TreeInfo` structure**. |
+| **`SubtreeOfAnotherTree.java`** | Logic to check if a binary tree is a subtree. | **Structural equivalence matching via helper comparison methods**. |
+| **`SumAtKthLevel.java`** | Level-order traversal approach to calculate sum at a specific level. | **Queue-based traversal tracking current level depth counter (`K`)**. |
 
 ---
 
@@ -26,7 +30,7 @@ A comprehensive Java repository dedicated to mastering hierarchical data structu
   - *In-order:* Yields sorted elements when applied to Binary Search Trees (BST).
   - *Post-order:* Essential for bottom-up computational tasks like deleting nodes or calculating subtree sizes/heights.
 - **Breadth-First Search (BFS) Variants:**
-  - *Level-Order:* Traverses the tree level by level using a Queue, highly useful for finding shortest paths or printing hierarchical levels.
+  - *Level-Order:* Traverses the tree level by level using a Queue, highly useful for finding shortest paths, calculating level sums, or printing hierarchical levels.
 
 ---
 *Learning in public - Arpit Dhiman*
